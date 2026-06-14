@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>تنیس الایت | تنیس حرفه‌ای</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Inter:wght@400;500&amp;display=swap');
+
+  body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f9f9f7;
+    color: #222;
+  }
+  
+  header {
+    background: white;
+    padding: 25px 0;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .nav {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #2e7d32;
+  }
+  
+  .hero {
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.4)), url('https://picsum.photos/id/1018/2000/1200');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 50px;
+  }
+  
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #2e7d32;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .players-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 80px;
+  }
+  
+  .player-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+  }
+  
+  .player-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+  }
+  
+  .player-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+  }
+  
+  .player-info {
+    padding: 30px;
+  }
+  
+  .long-text {
+    max-width: 820px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.85;
+    text-align: justify;
+  }
+  
+  .long-text p {
+    margin-bottom: 26px;
+  }
+  
+  footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 15px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">تنیس الایت</div>
+    <div style="display:flex; gap:35px; font-weight:500; color:#555;">
+      <span>گرند اسلم</span>
+      <span>ATP</span>
+      <span>WTA</span>
+      <span>رتبه‌بندی</span>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>تنیس حرفه‌ای</h1>
+    <p style="font-size:22px; margin-top:15px;">جهان تنیس در یک نگاه</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <h2 class="section-title">ستاره‌های حال حاضر</h2>
+  
+  <div class="players-grid">
+    <div class="player-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDg3NdpmBA3hEvORTo7TPu5HFcHqg6Ty8VhNsh5ks5ZQ&s=10" alt="">
+      <div class="player-info">
+        <h3>نواک جوکوویچ</h3>
+        <p>قهرمان ۲۴ گرند اسلم و یکی از موفق‌ترین تنیسورهای تاریخ</p>
+      </div>
+    </div>
+    <div class="player-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY3yfyPiK66Pvg23YigyKZ82DLIX4WPaHzNt4Rohs0vw&s=10" alt="">
+      <div class="player-info">
+        <h3>کارلوس آلکاراز</h3>
+        <p>جوان‌ترین قهرمان ویمبلدون و ستاره در حال صعود</p>
+      </div>
+    </div>
+    <div class="player-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdzMeOlQ4e6oxD6kTsLx3V5UiCtKSoOIMystTDmONX3A&s=10" alt="">
+      <div class="player-info">
+        <h3>ایگا سوئیاتک</h3>
+        <p>قهرمان فعلی WTA و یکی از قدرتمندترین بازیکنان حال حاضر</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="long-text">
+    <h2 style="font-size:32px; text-align:center; margin-bottom:40px; color:#2e7d32;">تنیس؛ ورزش ظرافت، قدرت و استراتژی</h2>
+    
+    <p>تنیس یکی از معدود ورزش‌هایی است که ترکیبی منحصربه‌فرد از قدرت بدنی، دقت ذهنی و استراتژی را طلب می‌کند. این ورزش در طول بیش از ۱۰۰ سال گذشته از یک بازی اشرافی به یکی از محبوب‌ترین و پرطرفدارترین رشته‌های ورزشی جهان تبدیل شده است. گرند اسلم‌ها مانند ویمبلدون، رولان گاروس، اوپن استرالیا و اوپن آمریکا هر سال میلیون‌ها تماشاگر را به خود جذب می‌کنند.</p>
+    
+    <p>یکی از ویژگی‌های خاص تنیس، فردی بودن آن است. برخلاف بسیاری از ورزش‌های تیمی، در تنیس هر بازیکن به تنهایی مسئول تمام تصمیم‌ها و عملکرد خود است. این موضوع باعث می‌شود فشار روانی بسیار بالایی روی بازیکنان وجود داشته باشد. بسیاری از قهرمانان بزرگ تنیس، موفقیت خود را نه فقط به خاطر قدرت بدنی، بلکه به دلیل توانایی مدیریت استرس و تمرکز بالا کسب کرده‌اند.</p>
+    
+    <p>در سال‌های اخیر، تنیس شاهد تغییرات زیادی بوده است. استفاده از فناوری‌های جدید مانند VAR در برخی تورنمنت‌ها، تحلیل داده‌های آماری پیشرفته و حتی استفاده از هوش مصنوعی برای بررسی سبک بازی حریفان، سطح رقابت را بالاتر برده است. همچنین، نسل جدیدی از بازیکنان جوان با سبک‌های تهاجمی و مدرن وارد میدان شده‌اند که بازی را جذاب‌تر کرده‌اند.</p>
+    
+    <p>تنیس همچنین از نظر فرهنگی و اجتماعی تأثیرگذار است. بسیاری از قهرمانان این ورزش به عنوان الگوهای جوانان شناخته می‌شوند و فعالیت‌های خیریه و اجتماعی آن‌ها فراتر از زمین تنیس رفته است. از طرف دیگر، تورنمنت‌های بزرگ تنیس به عنوان رویدادهای فرهنگی مهم در شهرهای میزبان برگزار می‌شوند و تأثیر اقتصادی قابل توجهی دارند.</p>
+    
+    <p>در نهایت، تنیس همچنان به عنوان یکی از ظریف‌ترین و در عین حال رقابتی‌ترین ورزش‌های جهان باقی مانده است. هر فصل جدید، داستان‌های تازه‌ای از مبارزه، استقامت و پیروزی به تاریخ این ورزش اضافه می‌کند.</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>© ۲۰۲۵ تنیس الایت — پوشش حرفه‌ای تنیس جهان</p>
+</footer>
+
+</body>
+</html>
